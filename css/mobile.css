@@ -9,3 +9,64 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+main {
+    width: 100%;
+    height: auto;
+}
+
+.title-page {
+    padding: 30px 0;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.card {
+    width: 100%;
+    text-align: center;
+}
+
+.card-product__img {
+    width: 100%;
+    max-width: 280px;
+}
+
+.card-product__title {
+    padding: 10px 0;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 600;
+    color: darkgreen;
+}
+
+.card-product__price {
+    display: inline-block;
+    padding: 5px 0;
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.card-product__show-description {
+    margin: 5px 0;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 1px solid green;
+    color: #fff;
+    background-color: green;
+}
+
+.card-product__show-description:hover {
+    cursor: pointer;
+
+}
+
+
