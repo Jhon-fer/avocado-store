@@ -89,7 +89,16 @@ const appAvo = async() => {
 
     allContentPage.push(main);
 
+    const footer = document.createElement('footer');
+    footer.className = 'footer';
+
+    const footerText = document.createElement('p');
+    footerText.className = 'footer-text';
+    footerText.textContent = 'Built by Jhon Rios';
+    footer.appendChild(footerText);
+
     nodeApp.append(...allContentPage);
+    nodeApp.appendChild(footer);
 
 }
 
