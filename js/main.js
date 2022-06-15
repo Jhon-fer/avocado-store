@@ -14,7 +14,6 @@ const formatPrice = price => {
     return newPrice;
 };
 
-
 const appAvo = async() => {
     const res = await fetch(`${baseUrl}/api/avo`);
     const info = await res.json();
@@ -47,7 +46,7 @@ const appAvo = async() => {
 
         const price = document.createElement('span');
         price.className = 'card-product__price';
-        price.textContent = element.price;
+        price.textContent = formatPrice(element.price);
 
         const description = document.createElement('p');
         description.className = 'card-product__description';
