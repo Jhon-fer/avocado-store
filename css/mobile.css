@@ -29,8 +29,15 @@ main {
 }
 
 .card {
+    padding: 20px 0;
     width: 100%;
     text-align: center;
+    transition: all .5s;
+}
+
+.card:hover {
+    transition: all .5s;
+    transform: scale(1.05);
 }
 
 .card-product__img {
