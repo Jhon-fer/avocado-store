@@ -32,15 +32,15 @@ const eventWeather = () => {
 
             const tempt = document.createElement('p');
             tempt.classList = 'tempt';
-            tempt.textContent = `Temperatura: ${data.main.temp}°C`;
+            tempt.textContent = `${data.main.temp}°C`;
 
             const main = document.createElement('p');
             main.classList = 'main';
-            main.textContent = `Clima: ${data.weather[0].main}`;
+            main.textContent = ` ${data.weather[0].main}`;
 
             const description = document.createElement('p');
             description.classList = 'description';
-            description.textContent = `Descripción: ${data.weather[0].description}`;
+            description.textContent = `${data.weather[0].description}`;
 
             const icon = document.createElement('img');
             icon.classList = 'img';
